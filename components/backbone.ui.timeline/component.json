@@ -1,0 +1,20 @@
+{
+  "name": "backbone.ui.timeline",
+  "version": "0.1.0",
+  "main": [
+    "./assets/js/backbone.ui.timeline.js"
+  ],
+  "dependencies": {
+    "backbone": "0.9.10",
+    "underscore": "1.4.4",
+    "jquery": "1.8.3"
+  },
+  "gitHead": "71c248bd1f0e01339d64714edcd219ac14f0ebea",
+  "_id": "backbone.ui.timeline@0.1.0",
+  "readme": "ERROR: No README.md file found!",
+  "description": "ERROR: No README.md file found!",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/backbone-ui/timeline.git"
+  }
+}

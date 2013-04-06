@@ -1,0 +1,13 @@
+@charset "utf-8";
+/* Paul Irish box sixing fix */
+* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+* { margin:0; padding:0 }
+/* don't focus with outline */
+*:focus { outline: none; }
+ul.nav { list-style-type: none; }
+img {
+  	max-width: 100%; /* Make images inherently responsive */
+  	vertical-align: middle;
+  	border: 0;
+  	-ms-interpolation-mode: bicubic;
+}
