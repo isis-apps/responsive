@@ -52,6 +52,7 @@
 		
 		clickNext : function( e ){
 			e.preventDefault();
+			console.log("click next");
 			var next = $(this.el).find(".slide.active").next().index();
 			if( next > -1 ) this.activate( next );
 		}, 
