@@ -87,38 +87,20 @@
   </div>
 </div>
 
-
-
-
 <script type="text/javascript" src="assets/js/libs/jquery.min.js"></script> 
 <script type="text/javascript" src="assets/js/libs/underscore-min.js"></script> 
 <script type="text/javascript" src="assets/js/libs/backbone-min.js"></script> 
+<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/handlebars.js/1.0.0-rc.3/handlebars.min.js"></script> 
 <script type="text/javascript" src="assets/js/libs/common-min.js"></script> 
 <script type="text/javascript" src="assets/js/libs/backbone.ui.sidenav.js"></script> 
 <script type="text/javascript" src="assets/js/libs/backbone.ui.slider.js"></script> 
 <script type="text/javascript" src="assets/js/libs/backbone.ui.timeline.js"></script> 
-<!-- <script type="text/javascript" src="//rawgithub.com/makesites/backbone-app/master/build/backbone.app-min.js"></script> -->
+<script type="text/javascript" src="//rawgithub.com/makesites/backbone-app/master/build/backbone.app-min.js"></script>
 
+<!-- script type="text/javascript" src="assets/js/app/models.js"></script --> 
+<script type="text/javascript" src="assets/js/app/views.js"></script> 
+<script type="text/javascript" src="assets/js/app/controllers.js"></script> 
+<script type="text/javascript" src="assets/js/main.js"></script> 
 
-
-
-<script type="text/javascript">
-// instantiate view
-var sidenavView = new Backbone.UI.Sidenav({
-	el : 'body > .ui-sidenav'
-});
-</script>
-
-<script type="text/javascript">
-	_.templateSettings.variable = "slides";
-	
-	// LOGIC
-	var sliderView = new Backbone.UI.Slider({
-			el : "#slider", 
-			collection : new Backbone.Collection(slides),
-			url : "assets/html/slider.html"
-	});
-	sliderView.render();
-</script>
 </body>
 </html>
