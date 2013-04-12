@@ -2,13 +2,13 @@
     <a class="prev arrow">&lt;</a>
     <a class="next arrow">&gt;</a>
     <ul class="nav">
-    <% _.each( slides, function( slide ){ %>
+    {{#each .}}
     	<li><a href="#"></a></li>
-    <% }); %>
+    {{/each}}
     </ul>
     <div class="wrapper">
-    <% _.each( slides, function( slide ){ %>
-    	<div class="slide" style="background-image: url(<%- slide.src %>)"><!-- --></div>
-    <% }); %>
+    {{#each .}}
+    	<div class="slide" style="background-image: url({{src}})"><!-- --></div>
+    {{/each}}
     </div>
 </div>
