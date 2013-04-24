@@ -13,6 +13,10 @@ APP.Routers.Default = APP.Router.extend({
 			url : "assets/html/slider.html"
 		});
 		
+		var collapsibleView = new Backbone.UI.Collapsible({
+			el : '.ui-collapsible'
+		})
+		
 		sliderView.render();
 	}
 });
