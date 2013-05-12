@@ -24,7 +24,7 @@
 		}, 
 		
 		resize: function() {
-			$(this.el).removeClass('ui-sidenav-active');
+			//$(this.el).removeClass('ui-sidenav-active');
 		}
 		
 	});
