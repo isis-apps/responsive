@@ -1,0 +1,11 @@
+{
+	"name": "isis.responsive",
+	"version": "0.1.0",
+	"main": "./index.html",
+	"componentsDirectory": "assets",
+	"dependencies": {
+		"jquery": "~2.0.3",
+		"backbone.ui.slideshow": "*",
+		"backbone.ui.sidenav": "*"
+	}
+}
